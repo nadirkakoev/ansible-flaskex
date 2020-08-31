@@ -27,7 +27,7 @@
     pip:
       requirements: /var/www/Flaskex/requirements.txt
       executable: pip3
-      force: yes
+      
   - name: Start Flaskex
     shell: "nohup python3 /var/www/Flaskex/app.py & "
     
